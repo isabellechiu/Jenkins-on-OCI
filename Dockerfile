@@ -3,7 +3,7 @@
 FROM nginx:latest
 
 # set maintainer
-LABEL maintainer "abhiram.annangi@oracle.com"
+LABEL maintainer "isabelle.c"
 
 # set health check
 HEALTHCHECK --interval=5s \
