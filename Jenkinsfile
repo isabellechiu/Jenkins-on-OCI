@@ -28,7 +28,7 @@ pipeline {
         steps {
             sh "sudo docker login -u ''nrxtlgtjdbvi/oracleidentitycloudservice/isabelle.chiu@dynasafe.com.tw'' -p 'v977w+t3Fa+9F2yQo<8W' nrt.ocir.io"
             sh "sudo docker tag customnginx:1 nrt.ocir.io/nrxtlgtjdbvi/nginx:custom"
-            sh 'sudo docker push iad.ocir.io/nrxtlgtjdbvi/nginx:custom'
+            sh 'sudo docker push nrt.ocir.io/nrxtlgtjdbvi/nginx:custom'
             
            }
          }      
